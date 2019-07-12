@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/united_gradient"
+    android:id="@+id/main_relative_layout"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/profile_button"
+        android:onClick="profileButtonClickHandler"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_drawable"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_profile" />
+    <Button
+        android:id="@+id/alc_button"
+        android:layout_above="@+id/profile_button"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="alcButtonClickHandler"
+        android:layout_width="wrap_content"
+        android:background="@drawable/button_drawable"
+        android:layout_height="wrap_content"
+        android:text="@string/about_alc" />
+
+    <Button
+        android:id="@+id/resume_button"
+        android:layout_below="@+id/profile_button"
+        android:onClick="resumeButtonClickHandler"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_drawable"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_resume" />
+</RelativeLayout>

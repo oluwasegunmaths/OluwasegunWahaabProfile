@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Oluwasegun Wahaab Profile</string>
+
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="my_info">Track: Android \n\n Country: Nigeria\n \n E-mail: abrolu@yahoo.com\n \n Phone Number: 08062713747 \n\n Slack: @Dr_wahaab_oluwasegun</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_resume">MY RESUME</string>
+    <string name="oluwasegun_wahaab">OLUWASEGUN WAHAAB</string>
+</resources>
